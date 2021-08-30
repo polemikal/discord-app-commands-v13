@@ -1,5 +1,3 @@
-const { REST } = require('@discordjs/rest');
-const { Routes } = require('discord-api-types/v9');
 const { TOKEN, CLIENT_ID, GUILD_ID } = require("./config.json");
 const AClient = require('./utils/structures/AClient.js');
 
