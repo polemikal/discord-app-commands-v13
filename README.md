@@ -1,5 +1,5 @@
 # discord-app-commands-v13
-  A great application command handler bot for Discord servers!
+  A great multiple application command handler bot for Discord servers!
 
 ![chat_input](https://user-images.githubusercontent.com/68484486/131280767-808f2148-1765-43be-a7f3-310473bdd57d.png)
 ![user](https://user-images.githubusercontent.com/68484486/131280771-9ec8adc8-e4d5-4d87-a492-02174c4783ed.png)
