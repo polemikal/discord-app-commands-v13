@@ -16,7 +16,7 @@ class ACommandHandler extends BaseEvent {
         if(interaction.type !== "APPLICATION_COMMAND" && !interaction.isCommand()) return;
         const command = client.commands.get(interaction.commandName);
         if(command.guildOnly == true && !interaction.inGuild()) return;
-        command.execute(client, interaction);
+        return command.execute(client, interaction);
     }
 }
 
