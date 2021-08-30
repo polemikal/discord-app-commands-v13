@@ -74,7 +74,7 @@ class AClient extends Client {
             }
         }
         try {
-            if (guild_id) {
+            if (guild_id && guild_id.length) {
                  await rest.put(
                      Routes.applicationGuildCommands(this.user_id, guild_id),
                      { body: guild_commands },
