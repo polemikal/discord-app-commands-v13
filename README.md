@@ -5,6 +5,14 @@
 ![user](https://user-images.githubusercontent.com/68484486/131280771-9ec8adc8-e4d5-4d87-a492-02174c4783ed.png)
 ![message](https://user-images.githubusercontent.com/68484486/131280774-bd453034-2438-490c-8de2-c86385eae66a.png)
 
+## Features
+
+ - Multiple application command handling.
+ - Slash command handling.
+ - User command handling.
+ - Message command handling.
+ - Ability to create application commands easily.
+ 
 ## 📋 Setup and Run
 
  1. Enter TOKEN, CLIENT_ID and GUILD_ID in `config.json` file. (GUILD_ID is optional.)
