@@ -17,7 +17,8 @@
 
  1. Enter TOKEN, CLIENT_ID and GUILD_ID in `config.json` file. (GUILD_ID is optional.)
  2. Give a permission to load application command for Discord bot (Enter YOUR_CLIENT_ID in URL.) `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=applications.commands`.
- 3. Open a new terminal from project folder then run `app.js` file. (Example run command: `node app.js`)
+ 3. Open a new terminal from project folder then install all modules with `npm i`.
+ 4. Finally run `app.js` file from terminal. (Example run command: `node app.js`.)
 
 ## ❓ Application Command Types
 
@@ -29,7 +30,8 @@
 
 ## Links
 
- - [Documents](https://discord.com/developers/docs/interactions/application-commands)
+ - [Application Commands Documents](https://discord.com/developers/docs/interactions/application-commands)
+ - [Builders Documents](https://github.com/discordjs/builders/blob/HEAD/docs/examples/Slash%20Command%20Builders.md)
 
 ## Contributing
 
