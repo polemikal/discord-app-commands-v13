@@ -12,9 +12,10 @@ class AClient extends Client {
      * 
      * @param {String} user_id 
      * @param {String} bot_token 
+     * @param {Array<import("discord.js").IntentsString>} intents 
      */
-    constructor(user_id, bot_token) {
-        super({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_VOICE_STATES", "GUILD_MESSAGES", "DIRECT_MESSAGES"], allowedMentions: { parse: ["everyone", "roles", "users"] }});
+    constructor(user_id, bot_token, intents) {
+        super({ intents, allowedMentions: { parse: ["everyone", "roles", "users"] }});
         this.user_id = user_id;
         this.bot_token = bot_token;
         this.commands = new Collection();
